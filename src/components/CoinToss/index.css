@@ -1,0 +1,109 @@
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coins-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .coins-card {
+    width: 400px;
+  }
+}
+
+.heading {
+  color: #a35200;
+  font-family: Roboto;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.description {
+  font-family: Roboto;
+  color: #334155;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 20px;
+  }
+}
+
+.image {
+  height: 130px;
+  width: 130px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 180px;
+    width: 180px;
+  }
+}
+
+.button {
+  background-color: #f3d437;
+  border: none;
+  color: #a35200;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+  padding: 6px;
+  width: 65px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 12px;
+    width: 80px;
+  }
+}
+
+.head-tail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .head-tail-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.count {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 18px;
+  margin-right: 18px;
+}
